@@ -1,0 +1,1 @@
+(()=>{const e=window.Tesseract;document.addEventListener("click",(o=>{if("IMG"===o.target.tagName){const t=o.target;e.recognize(t).progress((e=>console.log(e))).then((e=>console.log(e.text))).catch((e=>console.error(e)))}}))})();
